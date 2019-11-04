@@ -1,0 +1,35 @@
+.left-nav {
+    height: 400px; 
+    border: 2px black solid; 
+    background-color: #303030;
+    margin-left: -25px;
+}
+.btn-nav {
+    width: 145px;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:185px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #7cacde;
+    outline: 0;
+}
+.btn-nav:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.btn-nav:active {
+	position:relative;
+    top:1px;
+}
+.btn-nav:focus {
+    border: 3px solid #63b8ee;
+}
