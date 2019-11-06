@@ -5,11 +5,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LeftNavComponent } from './left-nav/left-nav.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LeftNavComponent
+    LeftNavComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

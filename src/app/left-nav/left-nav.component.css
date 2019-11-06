@@ -1,8 +1,7 @@
 .left-nav {
-    height: 400px; 
-    border: 2px black solid; 
+    height: 399px; 
+    border: 1px #303030; 
     background-color: #303030;
-    margin-left: -25px;
 }
 .btn-nav {
     width: 145px;
