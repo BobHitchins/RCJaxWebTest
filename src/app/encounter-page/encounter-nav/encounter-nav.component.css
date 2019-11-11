@@ -1,10 +1,10 @@
-.afire-left-nav {
+.encounter-left-nav {
     height: 399px; 
     border: 1px #303030; 
 	background-color: #303030;
 	width: 230px;
 }
-.afire-btn-nav {
+.encounter-btn-nav {
     width: 145px;
 	box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
@@ -22,14 +22,14 @@
     text-shadow:0px 1px 0px #7cacde;
     outline: 0;
 }
-.afire-btn-nav:hover {
+.encounter-btn-nav:hover {
 	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
 	background-color:#468ccf;
 }
-.afire-btn-nav:active {
+.encounter-btn-nav:active {
 	position:relative;
     top:1px;
 }
-.afire-btn-nav:focus {
+.encounter-btn-nav:focus {
     border: 3px solid #63b8ee;
 }
