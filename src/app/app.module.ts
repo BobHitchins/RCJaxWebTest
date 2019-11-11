@@ -11,6 +11,7 @@ import { AdminPageComponent } from './admin-page/admin-page.component';
 import { EncounterPageComponent } from './encounter-page/encounter-page.component';
 import { AdminNavComponent } from './admin-page/admin-nav/admin-nav.component';
 import { EncounterNavComponent } from './encounter-page/encounter-nav/encounter-nav.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EncounterNavComponent } from './encounter-page/encounter-nav/encounter-
     AdminPageComponent,
     EncounterPageComponent,
     AdminNavComponent,
-    EncounterNavComponent
+    EncounterNavComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
