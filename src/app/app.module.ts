@@ -8,9 +8,11 @@ import { BannerComponent } from './banner/banner.component';
 import { AfirePageComponent } from './afire-page/afire-page.component';
 import { AfireNavComponent } from './afire-page/afire-nav/afire-nav.component';
 import { AdminPageComponent } from './admin-page/admin-page.component';
-import { EncounterPageComponent } from './encounter-page/encounter-page.component';
 import { AdminNavComponent } from './admin-page/admin-nav/admin-nav.component';
+import { EncounterPageComponent } from './encounter-page/encounter-page.component';
 import { EncounterNavComponent } from './encounter-page/encounter-nav/encounter-nav.component';
+import { InspirationPageComponent } from './inspiration-page/inspiration-page.component';
+import { InspirationNavComponent } from './inspiration-page/inspiration-nav/inspiration-nav.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
@@ -20,9 +22,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AfirePageComponent,
     AfireNavComponent,
     AdminPageComponent,
-    EncounterPageComponent,
     AdminNavComponent,
+    EncounterPageComponent,
     EncounterNavComponent,
+    InspirationPageComponent,
+    InspirationNavComponent,
     PageNotFoundComponent
   ],
   imports: [
