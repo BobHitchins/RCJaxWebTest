@@ -14,6 +14,8 @@ import { EncounterNavComponent } from './encounter-page/encounter-nav/encounter-
 import { InspirationPageComponent } from './inspiration-page/inspiration-page.component';
 import { InspirationNavComponent } from './inspiration-page/inspiration-nav/inspiration-nav.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CaseStudyComponent } from './case-study/case-study.component';
+import { LinksComponent } from './links/links.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     EncounterNavComponent,
     InspirationPageComponent,
     InspirationNavComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CaseStudyComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
