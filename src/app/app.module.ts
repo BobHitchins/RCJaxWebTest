@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner.component';
+import { HomePageComponent } from './home-page/home-page.component';
 import { AfirePageComponent } from './afire-page/afire-page.component';
 import { AfireNavComponent } from './afire-page/afire-nav/afire-nav.component';
 import { AdminPageComponent } from './admin-page/admin-page.component';
@@ -21,6 +22,7 @@ import { LinksComponent } from './links/links.component';
   declarations: [
     AppComponent,
     BannerComponent,
+    HomePageComponent,
     AfirePageComponent,
     AfireNavComponent,
     AdminPageComponent,

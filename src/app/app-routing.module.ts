@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomePageComponent } from './home-page/home-page.component';
 import { AfirePageComponent } from './afire-page/afire-page.component';
 import { AdminPageComponent } from './admin-page/admin-page.component';
 import { EncounterPageComponent } from './encounter-page/encounter-page.component';
@@ -7,11 +8,12 @@ import { InspirationPageComponent } from './inspiration-page/inspiration-page.co
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
+   { path: 'home', component: HomePageComponent },
    { path: 'afire', component: AfirePageComponent },
    { path: 'admin', component: AdminPageComponent },
    { path: 'encounters', component: EncounterPageComponent },
    { path: 'inspiration', component: InspirationPageComponent },
-   { path: '', redirectTo: '/admin', pathMatch: 'full' },
+   { path: '', redirectTo: '/home', pathMatch: 'full' },
    { path: '**', component: PageNotFoundComponent }
 ];
 
