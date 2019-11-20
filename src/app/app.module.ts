@@ -16,6 +16,7 @@ import { InspirationNavComponent } from './inspiration-page/inspiration-nav/insp
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CaseStudyComponent } from './case-study/case-study.component';
 import { LinksComponent } from './links/links.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { LinksComponent } from './links/links.component';
     InspirationNavComponent,
     PageNotFoundComponent,
     CaseStudyComponent,
-    LinksComponent
+    LinksComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
