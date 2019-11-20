@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner.component';
+import { HomePageComponent } from './home-page/home-page.component';
 import { AfirePageComponent } from './afire-page/afire-page.component';
 import { AfireNavComponent } from './afire-page/afire-nav/afire-nav.component';
 import { AdminPageComponent } from './admin-page/admin-page.component';
@@ -16,12 +17,13 @@ import { InspirationNavComponent } from './inspiration-page/inspiration-nav/insp
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CaseStudyComponent } from './case-study/case-study.component';
 import { LinksComponent } from './links/links.component';
-import { HomePageComponent } from './home-page/home-page.component';
+import { MemberPageComponent } from './member-page/member-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerComponent,
+    HomePageComponent,
     AfirePageComponent,
     AfireNavComponent,
     AdminPageComponent,
@@ -33,7 +35,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     PageNotFoundComponent,
     CaseStudyComponent,
     LinksComponent,
-    HomePageComponent
+    HomePageComponent,
+    MemberPageComponent
   ],
   imports: [
     BrowserModule,
