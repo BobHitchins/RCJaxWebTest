@@ -18,6 +18,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CaseStudyComponent } from './case-study/case-study.component';
 import { LinksComponent } from './links/links.component';
 import { MemberPageComponent } from './member-page/member-page.component';
+import { AfireContentComponent } from './afire-page/afire-content/afire-content.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MemberPageComponent } from './member-page/member-page.component';
     CaseStudyComponent,
     LinksComponent,
     HomePageComponent,
-    MemberPageComponent
+    MemberPageComponent,
+    AfireContentComponent
   ],
   imports: [
     BrowserModule,

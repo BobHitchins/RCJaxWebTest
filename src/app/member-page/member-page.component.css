@@ -1,0 +1,25 @@
+.member-content {
+    width: 80%; 
+    height: 700px; 
+    border: 1px black solid; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #303030;
+}
+
+.member-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.member-table th, td {
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #707070;
+    color: #d0d0d0;
+}
